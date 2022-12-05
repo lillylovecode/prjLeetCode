@@ -1,0 +1,15 @@
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\bin\Debug\net6.0\prjLeetCode.exe
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\bin\Debug\net6.0\prjLeetCode.deps.json
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\bin\Debug\net6.0\prjLeetCode.runtimeconfig.json
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\bin\Debug\net6.0\prjLeetCode.dll
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\bin\Debug\net6.0\prjLeetCode.pdb
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.csproj.AssemblyReference.cache
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.AssemblyInfoInputs.cache
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.AssemblyInfo.cs
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.csproj.CoreCompileInputs.cache
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.dll
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\refint\prjLeetCode.dll
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.pdb
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\prjLeetCode.genruntimeconfig.cache
+C:\ipass_code\程式練習\leetCode\prjLeetCode\prjLeetCode\obj\Debug\net6.0\ref\prjLeetCode.dll
