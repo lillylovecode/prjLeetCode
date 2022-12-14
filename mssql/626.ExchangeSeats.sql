@@ -21,8 +21,8 @@ order by id
 --select top 1 @lastId = id from Seat order by id desc
 
 --select id = case when id%2 = 0 and id != @lastId then id-1 
---				 when id%2 = 1 and id != @lastId then id+1 
---				 when id%2 = 0 and id = @lastId then id-1 
---				 when id%2 = 1 and id = @lastId then id end,student 
+--				   when id%2 = 1 and id != @lastId then id+1 
+--				   when id%2 = 0 and id = @lastId then id-1 
+--				   when id%2 = 1 and id = @lastId then id end,student 
 --from Seat
 --order by id
