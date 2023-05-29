@@ -23,55 +23,17 @@ where e.salary in (
 )
 order by Department,Salary desc
 
-select d.name as Department,e1.name as Employee,e1.salary as Salary
-from #Employee e1
-join #Department d on e1.departmentId = d.id
-where 3 >
-(
-    select count(distinct e2.Salary)
-    from #Employee e2
-    where e2.Salary > e1.Salary
-)
-order by Department,Salary desc
-
-
-select *
-from #Employee 
-
-select e1.Name as 'Employee', e1.Salary
-from #Employee e1
-where 3 >
-(
-    select count(distinct e2.Salary)
-    from #Employee e2
-    where e2.Salary > e1.Salary
-)
-
-
-SELECT
-    d.Name AS 'Department', e1.Name AS 'Employee', e1.Salary
-FROM
-    #Employee e1 JOIN #Department d ON e1.DepartmentId = d.Id
-WHERE
-    (
-	SELECT COUNT(DISTINCT e2.Salary)
-    FROM #Employee e2
-    WHERE e2.Salary > e1.Salary
-    AND e1.DepartmentId = e2.DepartmentId
-)<3
-
---ROW_NUMBER()------------------------------------------------------------------------------------------
 
 --with as 用法
 with cte as(
-select *, ROW_NUMBER() over (partition by departmentId order by salary desc) as 'num' from Employee)
+select *, DENSE_RANK() over (partition by departmentId order by salary desc) as 'num' from Employee)
 select d.name as 'Department', c.name as 'Employee', c.salary from cte c join Department d on c.departmentId = d.id where c.num<4
 
 
 --subQuery用法
 select d.name as 'Department', c.name as 'Employee', c.salary 
 from (
-	select *, ROW_NUMBER() over (partition by departmentId order by salary desc) as 'num' from Employee
+	select *, DENSE_RANK() over (partition by departmentId order by salary desc) as 'num' from Employee --各部門排名 dense_rank()同分同排名
 ) c 
-join Department d on c.departmentId = d.id where c.num<4
-order by salary
+join Department d on c.departmentId = d.id where c.num < 4 --取前三名
+order by c.id
