@@ -85,7 +85,6 @@
 
             return resNode.val == 0 ? resNode.next : resNode;
             #endregion
-            //test
         }
 
         #region v1 function
