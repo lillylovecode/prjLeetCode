@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ipass_code\\程式練習\\leetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj": {}
+    "C:\\Users\\ZenBook\\Desktop\\coding\\Backend\\LeetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj": {}
   },
   "projects": {
-    "C:\\ipass_code\\程式練習\\leetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj": {
+    "C:\\Users\\ZenBook\\Desktop\\coding\\Backend\\LeetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ipass_code\\程式練習\\leetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj",
+        "projectUniqueName": "C:\\Users\\ZenBook\\Desktop\\coding\\Backend\\LeetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj",
         "projectName": "prjLeetCode",
-        "projectPath": "C:\\ipass_code\\程式練習\\leetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj",
-        "packagesPath": "C:\\Users\\003631\\.nuget\\packages\\",
-        "outputPath": "C:\\ipass_code\\程式練習\\leetCode\\prjLeetCode\\prjLeetCode\\obj\\",
+        "projectPath": "C:\\Users\\ZenBook\\Desktop\\coding\\Backend\\LeetCode\\prjLeetCode\\prjLeetCode\\prjLeetCode.csproj",
+        "packagesPath": "C:\\Users\\ZenBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZenBook\\Desktop\\coding\\Backend\\LeetCode\\prjLeetCode\\prjLeetCode\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\003631\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ZenBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://tfs.ipass.com.tw/P45/_packaging/IPassNuGet/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -49,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
